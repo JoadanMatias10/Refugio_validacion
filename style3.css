@@ -1,0 +1,26 @@
+body{
+    background-image: url(./fondo.webp);
+}
+
+.h2{
+    color: yellow;
+}
+
+input:invalid {
+    border: 2px dashed rgb(0, 0, 0);
+}
+
+input:invalid:required {
+    background-image: linear-gradient(to right, rgb(171, 172, 82), rgb(238, 200, 144));
+}
+
+input:valid {
+    border: 2px solid black;
+}
+
+.form-group{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
